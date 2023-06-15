@@ -13,7 +13,7 @@ class ContactCard extends Component {
 
     render(){
         return(
-            <div className="style">
+            <div className="contact">
                 <h1>Contact Name: {this.props.contactName}</h1>
                 <h1>Mobile Number: {this.props.mobilePhone}</h1>
                 <h1>Work Phone: {this.props.workPhone}</h1>
